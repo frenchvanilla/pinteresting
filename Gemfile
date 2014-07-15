@@ -10,6 +10,7 @@ gem 'turbolinks'# Turbolinks makes following links in your web application faste
 gem 'jbuilder', '~> 2.0' # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'bootstrap-sass'
 gem 'devise', '~>3.1.0.rc2'
+gem 'rake', '~> 10.3.2'
 group :development, :test do
      gem 'sqlite3' #Use sqlite3 as the database for Active Recordonly. Use sqlite3 in development (on computer) or on test
 end
@@ -25,7 +26,6 @@ gem 'spring',        group: :development # Spring speeds up development by keepi
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
 # Use unicorn as the app server
 # gem 'unicorn'
 
